@@ -2,10 +2,10 @@ import requests
 import bs4
 
 res = requests.get('https://en.wikipedia.org/wiki/Machine_learning')
-print(type(res))
+#print(type(res))
 
 soup = bs4.BeautifulSoup(res.text, 'lxml')
-print(type(soup))
+#print(type(soup))
 
 data = soup.select('.toc .toctext')  # selecting class
 
