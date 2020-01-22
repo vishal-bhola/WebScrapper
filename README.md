@@ -1,4 +1,8 @@
-# WebScrapping
+# WebScraping
+
+What is WebScraping
+WebScraping is data scraping used for extracting data from websites.
+
 
 - WebScrapping on Wikipedia over Machine Learning Topic.
 
